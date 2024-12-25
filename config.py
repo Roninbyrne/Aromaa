@@ -11,7 +11,7 @@ API_ID = 20948356
 API_HASH = "6b202043d2b3c4db3f4ebefb06f2df12"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "7307290539:AAFm4PD1mz5vMfk0SkSRYJutitf_E9bFb74"
+BOT_TOKEN = "7899876745:AAEOzStftJT9Aa7GF0lLW8SdAMn6z3kiTRA"
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = "mongodb+srv://ComboBot:ComboBot@combobot.ek5lw.mongodb.net/?retryWrites=true&w=majority&appName=ComboBot"
@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 LOGGER_ID = -1002063031380
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = 7337748194
+OWNER_ID = 6879651909
 CHANNEL_ID = -1002059639505
 
 ## Fill these variables if you're deploying on heroku.
@@ -42,19 +42,6 @@ GIT_TOKEN = getenv(
 
 SUPPORT_CHANNEL = "https://t.me/arona_update"
 SUPPORT_CHAT = "https://t.me/phoenixXsupport"
-
-BOT_SESSIONS = [
-    {
-        "string": "BAE_pYQAGilbzu6CJI51LsZyBAkbEp70Eh2J0AyMBVtZDM8_y4WiemMqJJlMvgbDAt-bdC5-Fof08r39tc_8ca6H_u-G8SyuV8VQ5ygxFqouc-X7fkUti6LnzDkX8i7jfsNJd-248gIjWBoBpWgu5PpA15zLegQrt8TpbizzYqG8KVzarZSh-MNGfkHgnCR05BPFSlAszwiEV1Z08L20sMtBTnE2vB3QO4mjymFfHOSjt_uVwejr5NtV6PXe1130zoNkDe1cvvzqnrAYN9tqjRahXymPUXBSqrfrYq4PV9Uw0BVIUhMWgB37ezjUHMjG7ijTveD7YHdLm68JjGL2m8NNhne9CQAAAAG1XSbiAA",  # Replace with actual session string
-        "name": "- 𝐑 𝚘 𝚗 𝚒 𝚗˹ え⃝",
-        "user_id": 7337748194
-    },
-    {
-        "string": "SESSION_STRING_2",  # Replace with another session string
-        "name": "Bot 2",
-        "user_id": 987654321
-    },
-]
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -76,7 +63,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = "BQGVvVwAAhuwWQ8la391b6CzboGr6qpOtuJWijwj6I5tHMFTVhIrf8KozyBCKIjDgQlItYxD_SukOlLhRGZ2jxlzA9RTaJUqkd4ebbUB7BfKi10cSWR2uQq7tPA9Uc928EJx3CkKkc0E5rGhqd6DhHZk67_6tNhdWOECR2RjXp_CD2-XPfCpcBBGmgIKGjVWt6xJWOb3UNrYkYR7OCHo7HOQhmr-fxNgpM8prd2Mthg5lJ_UNCp6Z65_KCQ0uynZs1WoZ4N_rcnPuH5GN5D2leLGxIFpcq09KJXjizlQY34UHiCfLaqmLanEFtAPZTyfO5mW1lNW3l8D1eNQTBSVmyJYsYYmywAAAABsFRQ_AA"
+STRING1 = "BQF5-0kAUj23ew_iZWROHfrpKG_eVpt0cw9-_BLfigevWN9MSr9e_nsnF8AiRsrkaB7K85QOOGmkT7AEfd38BDbx2JM1mTrh1J6SnxsRG1vHfO8ATpcrfGiJbfRdnM0Bviszq40fgSqcsGmtnacxR_ZmwvVuB3cybSbwAUKEXs7UMK9WpiQPMS2mEfK9JLlucch7uv2OU9HjyDxbW6DZTlYPv0VmSWiu4b2-txKHoSYOpVA0vyjcab14Ef6Ki5keOBiZQjGj7w7udD-QJ5wgaX9euiSMu0r3Oe5fzmMeOH3RkxNYG-8uaWiSsS2CkYBcVHdEddU84AlCg-LbLiMCSICorwCwAAAAG0uN47AA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
