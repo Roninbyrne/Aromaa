@@ -5,7 +5,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 from Aroma import app
 from Aroma.mongo.readable_time import get_readable_time
-from Aroma.mongo.afkdb import add_afk, is_afk, remove_afk
+from Aroma.core.afkdb import add_afk, is_afk, remove_afk
 
 
 @app.on_message(filters.command(["afk", "brb"], prefixes=["/", "!"]))
