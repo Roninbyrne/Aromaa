@@ -4,7 +4,7 @@ from pyrogram.enums import MessageEntityType
 from pyrogram import filters
 from pyrogram.types import Message
 from Aroma import app
-from Aroma.mongo.readable_time import get_readable_time
+from Aroma.core.readable_time import get_readable_time
 from Aroma.core.afkdb import add_afk, is_afk, remove_afk
 
 
