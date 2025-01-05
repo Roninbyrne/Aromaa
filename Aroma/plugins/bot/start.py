@@ -135,7 +135,7 @@ async def welcome(client, message: Message):
 
                 out = start_panel(_)
                 await message.reply(
-                    text=f"ʜᴇʏ {message.from_user.first_name},\nᴛʜɪs ɪs {app.mention}\n\nᴛʜᴀɴᴋs ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ɪɴ {message.chat.title}, {app.mention}<a href='https://unitedcamps.in/Images/file_5247.jpg'> .</a>",
+                    text=f"ʜᴇʏ {message.from_user.first_name},\nᴛʜɪs ɪs {app.mention}\n\nᴛʜᴀɴᴋs ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ɪɴ {message.chat.title}, {app.mention}<a href='https://unitedcamps.in/Images/file_10259.jpg'> .</a>",
                     reply_markup=InlineKeyboardMarkup(out),
                 )
 
