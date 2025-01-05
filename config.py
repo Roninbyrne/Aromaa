@@ -82,9 +82,9 @@ confirmer = {}
 START_IMG_URL = getenv(
     "START_IMG_URL", "https://te.legra.ph/file/25efe6aa029c6baea73ea.jpg"
 )
-START_VIDEO=getenv("START_VIDEO","https://unitedcamps.in/Images/file_5250.jpg")
+START_VIDEO=getenv("START_VIDEO","https://unitedcamps.in/Images/file_10264.jpg")
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://unitedcamps.in/Images/file_5249.jpg"
+    "PING_IMG_URL", "https://unitedcamps.in/Images/file_10262.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = "https://unitedcamps.in/Images/file_5246.jpg"
